@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat VI Bienvenida</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+        <div class="loader-wrapper">
+            <div class="loader">
+                <svg style="left: 50%;
+                top: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%) matrix(1, 0, 0, 1, 0, 0);" 
+                preserveAspectRatio="xMidYMid meet" 
+                viewBox="0 0 187.3 93.7" height="300px" width="400px">
+                <path d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 				c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="4" fill="none" id="outline" stroke="#4E4FEB"></path>
+                <path d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 				c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#4E4FEB" fill="none" opacity="0.05" id="outline-bg"></path>
+              </svg>
+                
+            </div>
+        </div>
+    
+    
+
+    <div class="split-layout">
+
+        <div class="left-section">
+            <h1>Bienvenido a Chat VI</h1>
+            <div class="typing-effect">
+                <span>Dale la vuelta a tus chats con Chat VI</span>
+                <span class="cursor">|</span>
+            </div>
+        </div>
+      
+
+        <div class="right-section">
+            <h1>Inicio de sesion</h1>
+            <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=507908115617-tk7uuq0iik26hbeihb8lntdg1q4cisfn.apps.googleusercontent.com&redirect_uri=https://padel12.github.io/pagina2.html&response_type=code&scope=openid%20email&access_type=offline" class="google-link">
+                <button class="login-btn">
+                    <img src="google.png" alt="Google Logo" class="google-logo">
+                    Inicia sesión con Google
+                </button>
+            </a>
+        </div>
+        
+        
+        
+    
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            const loaderWrapper = document.querySelector('.loader-wrapper');
+            loaderWrapper.style.display = 'none';
+        }, 4000); // 4000ms = 4 segundos
+    });
+</script>
+
+
+        
+
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</body>
+
+</html>
+
+
